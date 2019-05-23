@@ -1,4 +1,4 @@
-# "Apache Kafka for OpenShift"
+# "Apache Kafka for OpenShift - modified by Linda"
 
 Run [Apache Kafka](https://kafka.apache.org/) and [Apache ZooKeeper](https://zookeeper.apache.org/) on [OpenShift v3](https://www.openshift.com/).
 
