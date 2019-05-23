@@ -1,5 +1,6 @@
 # "Apache Kafka for OpenShift - modified by Linda"
-
+#  sostituito https://www.mirrorservice.org/sites/ftp.apache.org/kafka/0.10.2.1/kafka_2.11-0.10.2.1.tgz
+# con https://www.mirrorservice.org/sites/ftp.apache.org/kafka/2.1.1/kafka_2.11-2.1.1.tgz
 Run [Apache Kafka](https://kafka.apache.org/) and [Apache ZooKeeper](https://zookeeper.apache.org/) on [OpenShift v3](https://www.openshift.com/).
 
 This was developed for demonstration purposes. Use in environments where you do not need persistence in the face of failures or configuration tuning for scale.
