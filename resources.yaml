@@ -80,3 +80,15 @@ items:
         port: 2181
       selector:
         deploymentconfig: ${NAME}
+  - apiVersion: v1
+    kind: Service
+    metadata:
+      name: ${NAME}
+    spec:
+      ports:
+      - name: zookeeper
+        port: 9092
+      - name: zookeeper
+        port: 2181
+      selector:
+        deploymentconfig: ${NAME}
